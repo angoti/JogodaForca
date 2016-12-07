@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|center_horizontal"
+    android:columnCount="10"   >
+
+
+    <!-- Linha 0 -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:minWidth="30dp"
+        android:padding="0dp"
+        android:text="Q"
+        android:onClick="escolheLetra"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:minWidth="30dp"
+        android:padding="0dp"
+        android:text="W"
+        android:onClick="escolheLetra" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_row="0"
+        android:minWidth="30dp"
+        android:padding="0dp"
+        android:text="E"
+        android:onClick="escolheLetra" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_row="0"
+        android:minWidth="30dp"
+        android:padding="0dp"
+        android:text="R"
+        android:onClick="escolheLetra" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="4"
+        android:layout_row="0"
+        android:minWidth="30dp"
+        android:padding="0dp"
+        android:text="T"
+        android:onClick="escolheLetra" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="5"
+        android:layout_row="0"
+        android:minWidth="30dp"
+        android:padding="0dp"
+        android:text="Y"
+        android:onClick="escolheLetra" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="6"
+        android:layout_row="0"
+        android:minWidth="30dp"
+        android:padding="0dp"
+        android:text="U"
+        android:onClick="escolheLetra" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="7"
+        android:layout_row="0"
+        android:minWidth="30dp"
+        android:padding="0dp"
+        android:text="I"
+        android:onClick="escolheLetra" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="8"
+        android:layout_row="0"
+        android:minWidth="30dp"
+        android:padding="0dp"
+        android:text="O"
+        android:onClick="escolheLetra" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="9"
+        android:layout_row="0"
+        android:minWidth="30dp"
+        android:padding="0dp"
+        android:text="P"
+        android:onClick="escolheLetra" />
+
+    <!-- Linha 1 -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:minWidth="30dp"
+        android:padding="0dp"
+        android:text="A"
+        android:onClick="escolheLetra" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_row="1"
+        android:minWidth="30dp"
+        android:padding="0dp"
+        android:text="S"
+        android:onClick="escolheLetra" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_row="1"
+        android:minWidth="30dp"
+        android:padding="0dp"
+        android:text="D"
+        android:onClick="escolheLetra" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="4"
+        android:layout_row="1"
+        android:minWidth="30dp"
+        android:padding="0dp"
+        android:text="F"
+        android:onClick="escolheLetra" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="5"
+        android:layout_row="1"
+        android:minWidth="30dp"
+        android:padding="0dp"
+        android:text="G"
+        android:onClick="escolheLetra" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="6"
+        android:layout_row="1"
+        android:minWidth="30dp"
+        android:padding="0dp"
+        android:text="H"
+        android:onClick="escolheLetra" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="7"
+        android:layout_row="1"
+        android:minWidth="30dp"
+        android:padding="0dp"
+        android:text="J"
+        android:onClick="escolheLetra" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="8"
+        android:layout_row="1"
+        android:minWidth="30dp"
+        android:padding="0dp"
+        android:text="K"
+        android:onClick="escolheLetra" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="9"
+        android:layout_row="1"
+        android:minWidth="30dp"
+        android:padding="0dp"
+        android:text="L"
+        android:onClick="escolheLetra" />
+
+    <!-- Linha 2 -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_row="2"
+        android:minWidth="30dp"
+        android:padding="0dp"
+        android:text="Z"
+        android:onClick="escolheLetra" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_row="2"
+        android:minWidth="30dp"
+        android:padding="0dp"
+        android:text="X"
+        android:onClick="escolheLetra" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="4"
+        android:layout_row="2"
+        android:minWidth="30dp"
+        android:padding="0dp"
+        android:text="C"
+        android:onClick="escolheLetra" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="5"
+        android:layout_row="2"
+        android:minWidth="30dp"
+        android:padding="0dp"
+        android:text="V"
+        android:onClick="escolheLetra" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="6"
+        android:layout_row="2"
+        android:minWidth="30dp"
+        android:padding="0dp"
+        android:text="B"
+        android:onClick="escolheLetra" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="7"
+        android:layout_row="2"
+        android:minWidth="30dp"
+        android:padding="0dp"
+        android:text="N"
+        android:onClick="escolheLetra" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="8"
+        android:layout_row="2"
+        android:minWidth="30dp"
+        android:padding="0dp"
+        android:text="M"
+        android:onClick="escolheLetra" />
+
+
+</GridLayout>
